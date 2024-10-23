@@ -1,0 +1,14 @@
+{
+  "name": "KC Bypass",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*/"],
+  "permissions": [
+    "scripting",
+    "tabs"
+  ]
+}
